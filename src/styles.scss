@@ -1,1 +1,20 @@
-/* You can add global styles to this file, and also import other style files */
+.divSelect{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+body{
+    font-family: "Noto Sans", sans-serif;
+}
+
+label{
+    font-style: italic;
+    font-size: 0.75em;
+    font-weight: bold;
+}
+
+@media (max-width: 767px) {
+p{
+    font-size: 0.90em;
+}
+  }
